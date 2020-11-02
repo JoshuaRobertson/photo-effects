@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 body {
@@ -14,16 +15,18 @@ main {
 
 canvas {
   width: 100%;
+  border: .5rem solid #515151;
 }
 
 aside {
   flex: 1;
-  margin-left: .5rem;
+  margin-top: 1.5rem;
 }
 
 button {
   background: #151414;
   text-align: left;
+  font-family: inherit;
   padding: 1.6rem 0 1.6rem 2rem;
   font-size: 1.6rem;
   cursor: pointer;
@@ -64,7 +67,14 @@ label {
 
 
 @media (min-width: 992px) {
+
   body {
     flex-direction: row;
   }
+
+  aside {
+    margin-top: 0;
+    margin-left: 3rem;
+  }
+
 }
