@@ -1,0 +1,70 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #302f2f;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 3;
+}
+
+canvas {
+  width: 100%;
+}
+
+aside {
+  flex: 1;
+  margin-left: .5rem;
+}
+
+button {
+  background: #151414;
+  text-align: left;
+  padding: 1.6rem 0 1.6rem 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #d4d2d2;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+button:hover {
+  background: #322f2f;
+}
+
+label {
+  font-size: 1.8rem;
+  padding-right: 1.6rem;
+}
+
+.input-wrapper {
+  background: #808080;
+  padding: 1.6rem;
+}
+
+.effects {
+  display: flex;
+  flex-direction: column;
+}
+
+.controls {
+  display: flex;
+}
+
+.controls > button {
+  flex: 1;
+  border-bottom: none;
+  text-align: center;
+}
+
+
+
+@media (min-width: 992px) {
+  body {
+    flex-direction: row;
+  }
+}
